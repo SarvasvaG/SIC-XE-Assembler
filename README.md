@@ -1,4 +1,4 @@
-## GETTING STARTED
+# Getting Started
 • Ensure the current directory contains the “assembler.cpp” file and “tables.hpp” file.
 
 • Name the .txt file containing your SIC/XE program as “program.txt” and place it in the current directory.
@@ -10,7 +10,7 @@
 2) “obj_program.txt” – Object Program generated from pass2.
 3)  “assembly_listing.txt” – Listing File generated from pass2 and also the errors generated in each pass1 and pass2.
 
-## HIGH-LEVEL DESIGN
+# High-Level Design
 The following are the data structures used:
 
 • LITTAB: Literal Table, where each entry contains the following information- error flag, set of addresses for a given label, block number of the latest literal for a given label, 
@@ -52,8 +52,7 @@ program blocks.
 
 • block_mapping: Mapping of block id to it’s name.
 
-## WORKING OF ASSEMBLER
-
+# Working Of Assembler
 The main functions which execute the assembler are: load_BLOCKS(), load_OPTAB(), 
 pass1(), pass2() and main().
 
